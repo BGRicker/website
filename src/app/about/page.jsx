@@ -39,7 +39,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Ben Ricker.',
+    'I&apos;m Ben Ricker.'
 }
 
 export default function About() {
@@ -58,20 +58,20 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Hey, I’m Ben Ricker.
+            Hey, I&apos;m Ben Ricker.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               I’m a Director of Engineering and Engineering Manager based just north of Boston.
             </p>
             <p>
-              From a young age, I've been captivated by figuring out how things tick and making them even better. My adventure in software kicked off over a decade ago, and it's been an amazing journey filled with growth, learning, and the chance to collaborate with both brilliant coworkers and incredibly creative clients.
+              From a young age, I&apos;ve been captivated by figuring out how things tick and making them even better. My adventure in software kicked off over a decade ago, and it&apos;s been an amazing journey filled with growth, learning, and the chance to collaborate with both brilliant coworkers and incredibly creative clients.
             </p>
             <p>
-              Throughout my career, I've donned many hats—leading a variety of engineering projects, facilitating energizing ideation sprints, delving into AI architecture and implementations, and embracing all the quirky roles that come with agency life. Tackling challenges, crafting innovative products, and wowing with creative solutions is what really gets me excited.
+              Throughout my career, I&apos;ve donned many hats—leading a variety of engineering projects, facilitating energizing ideation sprints, delving into AI architecture and implementations, and embracing all the quirky roles that come with agency life. Tackling challenges, crafting innovative products, and wowing with creative solutions is what really gets me excited.
             </p>
             <p>
-              But what truly makes my day is being an engineering manager. There's nothing more rewarding than helping others grow and thrive—building strong relationships and fostering an environment where my team can learn and genuinely enjoy their work, which shines through in our outstanding engagement scores.
+              But what truly makes my day is being an engineering manager. There&apos;s nothing more rewarding than helping others grow and thrive—building strong relationships and fostering an environment where my team can learn and genuinely enjoy their work, which shines through in our outstanding engagement scores.
             </p>
           </div>
         </div>
