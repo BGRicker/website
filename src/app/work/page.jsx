@@ -26,7 +26,7 @@ function Appearance({ title, description, event, cta, href }) {
 export const metadata = {
   title: 'Actual Work',
   description:
-    'Agency work can be a bit opaque; what\'s this guy doing behind the scenes?',
+    'Agency work can often be a bit opaque. Here&apos;s a glimpse into some of the projects I&apos;ve been part of. Please note that due to confidentiality agreements, specific details may be limited.'
 }
 
 
@@ -36,15 +36,15 @@ export default function Projects() {
         title="Projects I've Worked On"
         intro={
           <>
-            Agency work can often be a bit opaque. Here's a glimpse into some of the projects I've been part of. Please note that due to confidentiality agreements, specific details may be limited.
+            Agency work can often be a bit opaque. Here&apos;s a glimpse into some of the projects I&apos;ve been part of. Please note that due to confidentiality agreements, specific details may be limited.
         
-            I've been fortunate to be at a great agency that has put me in challenging positions to grow over the last six years. I've seen enough projects to learn the common factors that lead to success or failure, and I'm excited to continue applying these insights to new projects.
-        
-            <br /><br />
-            The bulk of my work has centered around engineering management, technical team leadership, architecting backend systems, client interactions, culture initiatives, and server consulting. From an engineering perspective, I've specialized in Ruby on Rails servers, transaction performance, APIs, databases, and rapidly prototyping features for clients during sprints. When leading a team, I often step back from coding to focus on empowering engineers to excel. This includes pair programming, leading agile ceremonies, architecting systems, or handling client communication.
+            I&apos;ve been fortunate to be at a great agency that has put me in challenging positions to grow over the last six years. I&apos;ve seen enough projects to learn the common factors that lead to success or failure, and I&apos;m excited to continue applying these insights to new projects.
         
             <br /><br />
-            Beyond my technical work and leadership, I've been part of several culture initiatives at DEPT. I've hosted "Show and Tells," a series highlighting employees' interests and hobbies outside of work, for over a year. I host our Engineering All Hands meetings, Lunch and Learns, trivia events, manage our popular Watercooler channel, run book clubs, participate in company-wide meetings, and strive to be a positive, public-facing presence. Remote culture is great, but it can feel isolating over time. I love bringing people together from the comfort of their homes.
+            The bulk of my work has centered around engineering management, technical team leadership, architecting backend systems, client interactions, culture initiatives, and server consulting. From an engineering perspective, I&apos;ve specialized in Ruby on Rails servers, transaction performance, APIs, databases, and rapidly prototyping features for clients during sprints. When leading a team, I often step back from coding to focus on empowering engineers to excel. This includes pair programming, leading agile ceremonies, architecting systems, or handling client communication.
+        
+            <br /><br />
+            Beyond my technical work and leadership, I&apos;ve been part of several culture initiatives at DEPT. I&apos;ve hosted &quot;Show and Tells,&quot; a series highlighting employees&apos; interests and hobbies outside of work, for over a year. I host our Engineering All Hands meetings, Lunch and Learns, trivia events, manage our popular Watercooler channel, run book clubs, participate in company-wide meetings, and strive to be a positive, public-facing presence. Remote culture is great, but it can feel isolating over time. I love bringing people together from the comfort of their homes.
           </>
         }
       >
