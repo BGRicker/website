@@ -1,7 +1,7 @@
 'use client'
 
-import { useContext } from 'react'
-import { useRouter } from 'next/navigation'
+import { useContext, useEffect } from 'react'
+import { useRouter, usePathname } from 'next/navigation'
 
 import { AppContext } from '@/app/providers'
 import { Container } from '@/components/Container'
@@ -24,6 +24,15 @@ function ArrowLeftIcon(props) {
 export function ArticleLayout({ article, children }) {
   let router = useRouter()
   let { previousPathname } = useContext(AppContext)
+  const pathname = usePathname()
+
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'article_view',
+      article_slug: pathname.split('/').pop(),
+    });
+  }, [pathname]);
 
   return (
     <Container className="mt-16 lg:mt-32">
@@ -41,7 +50,7 @@ export function ArticleLayout({ article, children }) {
           )}
           <article>
             <header className="flex flex-col">
-              <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+              <h1 id="article-title" className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                 {article.title}
               </h1>
               <time
